@@ -1,0 +1,7 @@
+[package]
+name = "asymptotic_attestations"
+edition = "2024"
+
+[dependencies]
+# Depends on the registry by its MVR name (resolved by the `mvr` CLI).
+attestations = { r.mvr = "@mysten/attestations" }
